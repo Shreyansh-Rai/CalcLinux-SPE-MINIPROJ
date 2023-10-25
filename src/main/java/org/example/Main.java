@@ -109,6 +109,7 @@ class MyCalculator extends JFrame{
 
             else if(input.equals("C")) {
                 logger2.info("clear");
+                result = 0;
                 jTextField.setText("");
             }
 
@@ -232,23 +233,23 @@ class MyCalculator extends JFrame{
 
                     if(command.equals("+")) {
                         logger2.info("add "+result+" , " + jTextField.getText());
-                        result += Double.parseDouble(jTextField.getText());
+                        result = add(result,Double.parseDouble(jTextField.getText()));
                         logger2.info(result);
                     }
                     else if(command.equals("-")) {
                         logger2.info("sub "+result+" , " + jTextField.getText());
-                        result -= Double.parseDouble(jTextField.getText());
+                        result = sub(result,Double.parseDouble(jTextField.getText()));
                         logger2.info(result);
                     }
                     else if(command.equals("*")) {
                         logger2.info("mult "+result+" , " + jTextField.getText());
-                        result *= Double.parseDouble(jTextField.getText());
+                        result = mult(result,Double.parseDouble(jTextField.getText()));
                         logger2.info(result);
                     }
                     else if(command.equals("/")) {
                         if(Double.parseDouble(jTextField.getText()) != 0) {
                             logger2.info("div "+result+" , " + jTextField.getText());
-                            result /= Double.parseDouble(jTextField.getText());
+                            result = div(result,Double.parseDouble(jTextField.getText()));
                             logger2.info(result);
                         }else {
                             jTextField.setText(""+"NAN");
@@ -274,7 +275,18 @@ class MyCalculator extends JFrame{
             }
         }
     }
-
+    public double add(double res, double a){
+        return a+res;
+    }
+    public double sub(double res, double a){
+        return res - a;
+    }
+    public double mult(double res, double a){
+        return a*res;
+    }
+    public double div(double res, double a){
+        return res/a;
+    }
     public static String getPrettyNumber(String number) {
         return BigDecimal.valueOf(Double.parseDouble(number))
                 .stripTrailingZeros().toPlainString();
@@ -296,6 +308,18 @@ class MyCalculator extends JFrame{
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
+    public double add(double res, double a){
+        return a+res;
+    }
+    public double sub(double res, double a){
+        return res - a;
+    }
+    public double mult(double res, double a){
+        return a*res;
+    }
+    public double div(double res, double a){
+        return res/a;
+    }
     private static final Logger logger = LogManager.getLogger(Main.class);
 
     public static void main(String[] args) {
