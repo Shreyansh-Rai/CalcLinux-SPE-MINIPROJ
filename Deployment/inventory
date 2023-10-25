@@ -1,1 +1,2 @@
 localhost ansible_user=genkai
+localhost ansible_connection=local
