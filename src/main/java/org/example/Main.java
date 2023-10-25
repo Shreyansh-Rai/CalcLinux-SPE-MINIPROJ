@@ -331,6 +331,33 @@ public class Main {
 
         //start is to keep track of the operations that need 2 operands like x^y or x*y or x-y etc
         //any other operations are just executed and printed.
-        MyCalculator myCalculator = new MyCalculator();
+        System.out.println("Enter 1 to allow gui Not advised on docker containers...0 for basic mode");
+        Scanner ob = new Scanner(System.in);
+        int ch = ob.nextInt();
+        if(ch == 1){
+            MyCalculator calc = new MyCalculator();
+        }
+        else{
+            boolean flag = true;
+            while(flag){
+                System.out.println("Enter -1 to stop\n 1 : add \n 2 : Sub\n 3 : Mult\n 4 : div\n followed by 2 numbers");
+                int c = ob.nextInt();
+                if(c == -1) break;
+                double a = ob.nextDouble();
+                double b = ob.nextDouble();
+                if(c == 1){
+                    System.out.println(a+b);
+                }
+                if(c == 2){
+                    System.out.println(a-b);
+                }
+                if(c == 3){
+                    System.out.println(a*b);
+                }
+                if(c == 4){
+                    System.out.println(a/b);
+                }
+            }
+        }
     }
 }

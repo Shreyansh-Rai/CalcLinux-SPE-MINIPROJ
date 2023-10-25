@@ -349,3 +349,62 @@
 2023-10-25 23:13:52.503 [AWT-EventQueue-0] INFO  org.example.MyCalculator - mult 7.0 , 7
 2023-10-25 23:13:52.503 [AWT-EventQueue-0] INFO  org.example.MyCalculator - 49.0
 2023-10-25 23:13:52.504 [AWT-EventQueue-0] INFO  org.example.MyCalculator - Next op set to =
+2023-10-25 23:46:07.339 [main] INFO  org.example.Main - Started main. calling calc.
+2023-10-25 23:46:22.962 [main] INFO  org.example.Main - Started main. calling calc.
+2023-10-25 23:46:25.562 [main] INFO  org.example.MyCalculator - Start of Execution calc.
+2023-10-25 23:46:25.601 [main] INFO  org.example.MyCalculator - Buttons added to the panel
+2023-10-25 23:46:25.602 [main] INFO  org.example.MyCalculator - Buttons added to the panel
+2023-10-25 23:46:25.602 [main] INFO  org.example.MyCalculator - Buttons added to the panel
+2023-10-25 23:46:25.603 [main] INFO  org.example.MyCalculator - Buttons added to the panel
+2023-10-25 23:46:25.603 [main] INFO  org.example.MyCalculator - Buttons added to the panel
+2023-10-25 23:46:25.603 [main] INFO  org.example.MyCalculator - Buttons added to the panel
+2023-10-25 23:46:25.604 [main] INFO  org.example.MyCalculator - Buttons added to the panel
+2023-10-25 23:46:25.604 [main] INFO  org.example.MyCalculator - Buttons added to the panel
+2023-10-25 23:46:25.604 [main] INFO  org.example.MyCalculator - Buttons added to the panel
+2023-10-25 23:46:25.605 [main] INFO  org.example.MyCalculator - Buttons added to the panel
+2023-10-25 23:46:25.605 [main] INFO  org.example.MyCalculator - Buttons added to the panel
+2023-10-25 23:46:25.605 [main] INFO  org.example.MyCalculator - Buttons added to the panel
+2023-10-25 23:46:25.606 [main] INFO  org.example.MyCalculator - Buttons added to the panel
+2023-10-25 23:46:25.606 [main] INFO  org.example.MyCalculator - Buttons added to the panel
+2023-10-25 23:46:25.606 [main] INFO  org.example.MyCalculator - Buttons added to the panel
+2023-10-25 23:46:25.607 [main] INFO  org.example.MyCalculator - Buttons added to the panel
+2023-10-25 23:46:25.608 [main] INFO  org.example.MyCalculator - Buttons added to the panel
+2023-10-25 23:46:25.608 [main] INFO  org.example.MyCalculator - Buttons added to the panel
+2023-10-25 23:46:25.608 [main] INFO  org.example.MyCalculator - Buttons added to the panel
+2023-10-25 23:46:25.609 [main] INFO  org.example.MyCalculator - Buttons added to the panel
+2023-10-25 23:46:25.609 [main] INFO  org.example.MyCalculator - Buttons added to the panel
+2023-10-25 23:46:25.609 [main] INFO  org.example.MyCalculator - Buttons added to the panel
+2023-10-25 23:46:25.609 [main] INFO  org.example.MyCalculator - Buttons added to the panel
+2023-10-25 23:46:25.610 [main] INFO  org.example.MyCalculator - Buttons added to the panel
+2023-10-25 23:46:25.610 [main] INFO  org.example.MyCalculator - Buttons added to the panel
+2023-10-25 23:46:25.610 [main] INFO  org.example.MyCalculator - Buttons added to the panel
+2023-10-25 23:46:25.611 [main] INFO  org.example.MyCalculator - Buttons added to the panel
+2023-10-25 23:46:25.611 [main] INFO  org.example.MyCalculator - Buttons added to the panel
+2023-10-25 23:46:25.611 [main] INFO  org.example.MyCalculator - Buttons added to the panel
+2023-10-25 23:46:25.611 [main] INFO  org.example.MyCalculator - Buttons added to the panel
+2023-10-25 23:46:25.612 [main] INFO  org.example.MyCalculator - Buttons added to the panel
+2023-10-25 23:46:25.612 [main] INFO  org.example.MyCalculator - Buttons added to the panel
+2023-10-25 23:46:25.612 [main] INFO  org.example.MyCalculator - Buttons added to the panel
+2023-10-25 23:46:25.613 [main] INFO  org.example.MyCalculator - Buttons added to the panel
+2023-10-25 23:46:25.613 [main] INFO  org.example.MyCalculator - Buttons added to the panel
+2023-10-25 23:46:27.792 [AWT-EventQueue-0] INFO  org.example.MyCalculator - 5
+2023-10-25 23:46:27.797 [AWT-EventQueue-0] INFO  org.example.MyCalculator - Start : true Result : 0.0
+2023-10-25 23:46:27.972 [AWT-EventQueue-0] INFO  org.example.MyCalculator - 5
+2023-10-25 23:46:27.973 [AWT-EventQueue-0] INFO  org.example.MyCalculator - Start : false Result : 0.0
+2023-10-25 23:46:30.887 [AWT-EventQueue-0] INFO  org.example.MyCalculator - 5
+2023-10-25 23:46:30.888 [AWT-EventQueue-0] INFO  org.example.MyCalculator - Start : false Result : 0.0
+2023-10-25 23:46:34.494 [AWT-EventQueue-0] INFO  org.example.MyCalculator - Back
+2023-10-25 23:46:34.494 [AWT-EventQueue-0] INFO  org.example.MyCalculator - Start : false Result : 0.0
+2023-10-25 23:46:34.494 [AWT-EventQueue-0] INFO  org.example.MyCalculator - backspace
+2023-10-25 23:46:36.238 [AWT-EventQueue-0] INFO  org.example.MyCalculator - +
+2023-10-25 23:46:36.238 [AWT-EventQueue-0] INFO  org.example.MyCalculator - Start : false Result : 0.0
+2023-10-25 23:46:36.240 [AWT-EventQueue-0] INFO  org.example.MyCalculator - In buffer : 55.0
+2023-10-25 23:46:36.243 [AWT-EventQueue-0] INFO  org.example.MyCalculator - Next op set to +
+2023-10-25 23:46:37.254 [AWT-EventQueue-0] INFO  org.example.MyCalculator - 5
+2023-10-25 23:46:37.254 [AWT-EventQueue-0] INFO  org.example.MyCalculator - Start : true Result : 55.0
+2023-10-25 23:46:38.907 [AWT-EventQueue-0] INFO  org.example.MyCalculator - =
+2023-10-25 23:46:38.907 [AWT-EventQueue-0] INFO  org.example.MyCalculator - Start : false Result : 55.0
+2023-10-25 23:46:38.910 [AWT-EventQueue-0] INFO  org.example.MyCalculator - add 55.0 , 5
+2023-10-25 23:46:38.911 [AWT-EventQueue-0] INFO  org.example.MyCalculator - 60.0
+2023-10-25 23:46:38.912 [AWT-EventQueue-0] INFO  org.example.MyCalculator - Next op set to =
+2023-10-25 23:46:48.015 [main] INFO  org.example.Main - Started main. calling calc.
