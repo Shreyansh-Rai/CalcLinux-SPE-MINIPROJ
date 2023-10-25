@@ -1,4 +1,5 @@
-FROM openjdk:11
+FROM openjdk:17
 COPY ./target/Calculator-1.0-SNAPSHOT-jar-with-dependencies.jar ./
 WORKDIR ./
-CMD ["java","-jar"," Calculator-1.0-SNAPSHOT-jar-with-dependencies.jar"]
+CMD ["ls"]
+CMD ["java","-cp"," Calculator-1.0-SNAPSHOT-jar-with-dependencies.jar", "org.example.Main"]
